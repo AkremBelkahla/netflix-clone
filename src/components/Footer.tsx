@@ -44,8 +44,8 @@ export const Footer = () => {
           </div>
         </div>
         <div className="text-center text-sm text-muted-foreground border-t border-border pt-8 space-y-2">
-          <p>&copy; 2025 StreamFlix. All rights reserved.</p>
-          <p className="text-xs">Développé avec ❤️ par <a href="https://infinityweb.tn" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">infinityWeb.tn</a></p>
+          <p>&copy; 2025. All rights reserved.</p>
+          <p className="text-xs">Developed with ❤️ by <a href="https://infinityweb.tn" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">infinityWeb.tn</a></p>
         </div>
       </div>
     </footer>
