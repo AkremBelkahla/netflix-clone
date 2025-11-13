@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { TrailerModal } from '@/components/TrailerModal';
 import { LoadingScreen } from '@/components/LoadingScreen';
 import { useLanguage } from '@/hooks/useLanguage';
+import { Footer } from '@/components/Footer';
 import { 
   addToMyList, 
   removeFromMyList, 
@@ -210,6 +211,7 @@ export default function ContentDetail() {
       )}
 
       <TrailerModal videoKey={showTrailer ? content.trailerKey : null} onClose={() => setShowTrailer(false)} />
+      <Footer />
     </div>
   );
 }
